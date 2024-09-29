@@ -49,9 +49,9 @@ lib/
    ── styles.dart                 # App styles and themes
 
 ── views/
-   ── welcome_screen.dart         # Welcome screen for user input
-   ── quiz_screen.dart            # Quiz question display
-   ── result_screen.dart          # Displays the results after the quiz
+── welcome_screen.dart         # Welcome screen for user input
+── quiz_screen.dart            # Quiz question display
+── result_screen.dart          # Displays the results after the quiz
 
 ── main.dart                       # Entry point of the application
 

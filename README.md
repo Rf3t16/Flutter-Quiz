@@ -1,26 +1,27 @@
-# [Quiz App 📋]
+# [Quiz App ❓]
 The Quiz Flutter App is an interactive mobile application that allows users to take a fun and engaging quiz on various topics. Users can enter their name to start the quiz and answer a series of multiple-choice questions. The app provides instant feedback on the user's performance, displaying the score at the end. It's designed to be user-friendly, with a modern interface that enhances the overall experience.
 
 # [GIF]
 ![Loading...](Gif/Gif.gif)
 
 ## [Features]
-### Task Management:
-- Add tasks for specific times using a bottom sheet modal.
-- Each task can contain multiple items (subtasks) that can be marked as completed, edited, or deleted.
-- Task items are displayed in an Expansion Panel that allows users to collapse or expand tasks to view and interact with the items.
-
-### Task Persistence:
-- The app supports tasks at different times (e.g., 7:00 AM, 9:00 AM, etc.), and you can add or update tasks by simply reusing the same time as the title.
-
-### User-friendly UI:
-- Modern design with easily customizable styles for text, background, and color elements (managed in a centralized app_style.dart file).
-- Visual feedback for completed tasks with a strikethrough on task items and progress updates on the number of completed tasks vs. total items.
-- Real-time UI updates through Provider for state management.
-
-### Task Item Editing:
-- Each task item can be edited or deleted through a dialog.
-- Automatic deletion of tasks if all items are removed.
+### User Authentication:
+- Users can enter their name on the welcome screen before starting the quiz.
+### Dynamic Quiz Questions:
+- The app presents a series of three multiple-choice questions, each with four answer options.
+### Score Calculation:
+- The app tracks user answers and calculates the score, displaying it in a fraction format (correct answers/total questions) at the end of the quiz.
+### User-Friendly UI:
+- Modern and responsive design with an intuitive interface that enhances user experience.
+- Includes a centralized styles file for easy customization of text, background, and color elements.
+### Navigation:
+- Smooth transitions between screens, utilizing Flutter's navigation system to move from the welcome screen to the quiz and results screens.
+### Real-Time Feedback:
+- Provides immediate feedback after answering each question, highlighting the selected answer and allowing users to navigate to the next question easily.
+### State Management:
+- Utilizes efficient state management to maintain the flow of the quiz and the current score without data loss during navigation.
+### Image Handling:
+- A utility file that allows easy access to image assets used throughout the app.
 
 ## [Architecture]
 The app follows the MVC (Model-View-Controller) architecture pattern, which separates the application logic into three interconnected components:

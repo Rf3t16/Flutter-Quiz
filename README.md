@@ -39,15 +39,15 @@ The app follows the MVC (Model-View-Controller) architecture pattern, which sepa
 ## [ Directory Structure ]
 - lib
    - controllers
-      - quiz_controller.dart # Manages quiz logic and state
+      - quiz_controller.dart ==> Manages quiz logic and state
    - models
-      - quiz_model.dart # Defines quiz data structure
+      - quiz_model.dart ==> Defines quiz data structure
    - utils
-      - img.dart # Image asset paths
-      - styles.dart # App styles and themes
+      - img.dart ==> Image asset paths
+      - styles.dart ==> App styles and themes
    - views
-      - welcome_screen.dart # Welcome screen for user input
-      - quiz_screen.dart # Quiz question display
-      - result_screen.dart # Displays the results after the quiz
-   - main.dart # Entry point of the application
-   - routes.dart # Defines app routes
+      - welcome_screen.dart ==> Welcome screen for user input
+      - quiz_screen.dart ==> Quiz question display
+      - result_screen.dart ==> Displays the results after the quiz
+   - main.dart ==> Entry point of the application
+   - routes.dart ==> Defines app routes

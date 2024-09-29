@@ -2,7 +2,7 @@
 The Quiz Flutter App is an interactive mobile application that allows users to take a fun and engaging quiz on various topics. Users can enter their name to start the quiz and answer a series of multiple-choice questions. The app provides instant feedback on the user's performance, displaying the score at the end. It's designed to be user-friendly, with a modern interface that enhances the overall experience.
 
 ## [GIF]
-![Loading...](Gif/Gif.gif)
+![Loading...](Gif/gif1.gif)
 
 ## [Features]
 ### User Authentication:
